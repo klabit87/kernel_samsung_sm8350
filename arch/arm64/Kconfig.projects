@@ -15,3 +15,21 @@ config MACH_O1Q_USA_OPENW
 	bool "Samsung O1Q USA OPENW"
 	help
 	  Support for Samsung O1Q USA OPENW device.
+
+config SEC_T2Q_PROJECT
+	default n
+	bool "Samsung T2Q Project"
+	help
+	  Support for Samsung T2Q Project
+
+config MACH_T2Q_USA_SINGLEW
+	default n
+	bool "Samsung T2Q USA SINGLEW"
+	help
+	  Support for Samsung T2Q USA SINGLEW device.
+
+config MACH_T2Q_USA_OPENW
+        default n
+        bool "Samsung T2Q USA OPENW"
+        help
+          Support for Samsung T2Q USA OPENW device.
